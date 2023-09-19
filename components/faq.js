@@ -31,26 +31,28 @@ const Faq = () => {
       </div>
     </Container>
   );
-}
+};
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
-  },
-  {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
-  },
-  {
-    question: "What is your refund policy? ",
+    question: "Vocês se encarregam da configuração dos roteadores?",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "Não, mas enviamos manuais e guias para que você facilmente configure seu roteador.",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "Posso usar ele em minha empresa?",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "Sim! Mas opte por nossos produtos na versão enterprise, que contam com mais configurações de segurança e funções específicas para empresas.",
+  },
+  {
+    question: "Como funciona a garantia de vocês? ",
+    answer:
+      "Na Adams Rotedores, não possuímos garantia, nós somos perfeitos e não erramos.",
+  },
+  {
+    question: "O modelo integrado a cafeiteira vem com café?",
+    answer:
+      "Não, o modelo COFFENETPLUS não vem com café, mas recomendamos utilizar café 3 corações.",
   },
 ];
 
