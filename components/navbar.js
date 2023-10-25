@@ -7,7 +7,7 @@ import { useRouter } from "next/router";
 
 const Navbar = () => {
   const router = useRouter();
-  const navigation = ["Product", "Features", "Pricing", "Company", "Blog"];
+  const navigation = ["Produtos", "Sobre nós", "FAQ", "Encontre-nos"];
 
   return (
     <div className="w-full">
@@ -28,7 +28,7 @@ const Navbar = () => {
                         className="w-8"
                       />
                     </span>
-                    <span>Nextly</span>
+                    <span>Adam Routers</span>
                   </span>
                 </Link>
 
@@ -72,7 +72,7 @@ const Navbar = () => {
                       href="/"
                       className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5"
                     >
-                      Get Started
+                      Veja sobre nós!
                     </Link>
                   </>
                 </Disclosure.Panel>
@@ -102,7 +102,7 @@ const Navbar = () => {
             href="/"
             className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5"
           >
-            Get Started
+            Clique aqui!
           </Link>
 
           <ThemeChanger />
