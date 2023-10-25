@@ -54,7 +54,6 @@ const Home = () => {
         Uma empresa sediada em Joinville, Santa Catarina, e apoiamos o comércio
         local.
       </SectionTitle>
-      <Footer />
     </>
   );
 };
