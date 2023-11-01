@@ -24,7 +24,7 @@ export default function Footer() {
                   height="32"
                   className="w-8"
                 />
-                <span>Nextly</span>
+                <span>Adam Routers</span>
               </Link>
             </div>
 
